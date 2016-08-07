@@ -1,6 +1,6 @@
 package rest
 
-const xPoweredByDefault = "go-json-rest"
+const xPoweredByDefault = "qapi"
 
 // PoweredByMiddleware adds the "X-Powered-By" header to the HTTP response.
 type PoweredByMiddleware struct {
